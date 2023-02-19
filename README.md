@@ -1,6 +1,10 @@
 Fork notes
 ---
-This isn't published to anywhere yet, so you need to build it yourself.
+Disclaimer: this is the first time I've worked on a flatpak package, so this might be
+wrong 🤷.
+
+This isn't published anywhere official yet, so you need to build it yourself. I did build
+a "repo" dir and I've attached that as a tarball to a github release if that's useful.
 
 Thanks to [alesya-h](https://github.com/alesya-h) for all the hard work on updating to
 Waveform12.
@@ -14,8 +18,6 @@ The changes I made
 ## How to build
 Building is basically following: https://docs.flatpak.org/en/latest/first-build.html
 
-Clone this repo.
-
 Make sure `flatpak-builder` is installed 
 ```
 yay -S flatpak-builder
@@ -23,7 +25,16 @@ yay -S flatpak-builder
 
 Install the platform SDK
 ```
+# note: this matches the runtime, runtime-version and sdk tags in the yml file
 flatpak install flathub org.freedesktop.Platform//21.08 org.freedesktop.Sdk//21.08
+```
+
+Clone this repo.
+
+
+Init the submodule
+```
+git submodule update --init
 ```
 
 Build the project
