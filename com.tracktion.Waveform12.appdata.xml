@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>com.tracktion.Waveform12</id>
+  <name>Waveform12</name>
+  <summary>Digital audio workstation for all music creators</summary>
+  <developer_name>Tracktion Software Corporation</developer_name>
+  <icon type="remote">https://www.tracktion.com/sites/default/files/img/products/waveform-free/logo-waveform-free2021.png</icon>
+  <url type="homepage">https://www.tracktion.com/</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary=https://marketplace.tracktion.com/terms-of-use</project_license>
+
+  <description>
+    <p>
+      Waveform is a rapidly evolving application specifically designed for
+      the needs of modern music producers. Specializing in creative and
+      inspirational workflows and avoiding features not explicitly needed
+      to allow the app to remain surprisingly fun and intuitive. While
+      other apps try to appeal to broad user groups, for example film score,
+      live sound, performance – Waveform is laser focused on music production.
+    </p>
+    <p>
+      NOTE: This wrapper is not verified by, affiliated with, or supported
+      by Tracktion Software Corporation.
+    </p>
+  </description>
+
+  <categories>
+    <category>Audio</category>
+    <category>AudioVideoEditing</category>
+  </categories>
+
+  <requires>
+    <display_length compare="ge">medium</display_length>
+    <control>keyboard</control>
+    <control>pointing</control>
+  </requires>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Waveform main screen</caption>
+      <image>https://cdn.mos.cms.futurecdn.net/S3RiAQVCqszQ6ZqUipGNPc.jpg</image>
+    </screenshot>
+
+    <!-- from https://www.tracktion.com/products/waveform-pro-features -->
+    <screenshot>
+      <caption>Quick Action Bar</caption>
+      <image>https://www.tracktion.com/sites/default/files/img/products/waveform-pro11/features/waveform11pro-feature-quick-action-window-v2.jpg</image>
+    </screenshot>
+    <screenshot>
+      <caption>New MIDI Tools</caption>
+      <image>https://www.tracktion.com/sites/default/files/img/products/waveform-pro11/features/waveform11pro-feature-midi-tools.jpg</image>
+    </screenshot>
+    <screenshot>
+      <caption>Plugin Sandboxing</caption>
+      <image>https://www.tracktion.com/sites/default/files/img/products/waveform-pro11/features/waveform11pro-feature-plugin-sandbox.jpg</image>
+    </screenshot>
+    <!-- from https://www.tracktion.com/products/waveform-pro-whats-new -->
+    <screenshot>
+      <caption>Advanced MIDI</caption>
+      <image>https://www.tracktion.com/sites/default/files/img/products/waveform-pro12/new/w12-feature-midi-advanced.jpg</image>
+    </screenshot>
+    <screenshot>
+      <caption>New Drum Grid Mode</caption>
+      <image>https://www.tracktion.com/sites/default/files/img/products/waveform-pro12/new/w12-feature-drum-grid.jpg</image>
+    </screenshot>
+    <screenshot>
+      <caption>Probability Added to Step Clips</caption>
+      <image>https://www.tracktion.com/sites/default/files/img/products/waveform-pro12/new/w12-feature-step-probability.jpg</image>
+    </screenshot>
+    <screenshot>
+      <caption>MIDI Strum</caption>
+      <image>https://www.tracktion.com/sites/default/files/img/products/waveform-pro12/new/w12-feature-midi-strum.jpg</image>
+    </screenshot>
+    <screenshot>
+      <caption>Rewritten Audio Engine</caption>
+      <image>https://www.tracktion.com/sites/default/files/img/products/waveform-pro12/new/w12-feature-audio-engine.jpg</image>
+    </screenshot>
+    <!-- from https://www.tracktion.com/products/waveform-pro-content -->
+    <screenshot>
+      <caption>Subtractive</caption>
+      <image>https://www.tracktion.com/sites/default/files/img/products/waveform-pro11/features/wpro-feature-subtractive.jpg</image>
+    </screenshot>
+    <screenshot>
+      <caption>Drum Sampler</caption>
+      <image>https://www.tracktion.com/sites/default/files/img/products/waveform-pro11/features/waveform10-feature-drum-sampler-1.jpg</image>
+    </screenshot>
+  </screenshots>
+
+  <content_rating type="oars-1.1" />
+
+</component>

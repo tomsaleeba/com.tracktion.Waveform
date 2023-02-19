@@ -1,3 +1,47 @@
+Fork notes
+---
+This isn't published to anywhere yet, so you need to build it yourself.
+
+Thanks to [alesya-h](https://github.com/alesya-h) for all the hard work on updating to
+Waveform12.
+
+The changes I made
+- change package name to include `12`, so it's a separate app from v11, as suggested in
+  [this comment](https://github.com/flathub/com.tracktion.Waveform/pull/7#issuecomment-1126780423)
+- update to use the latest v12 available
+
+
+## How to build
+Building is basically following: https://docs.flatpak.org/en/latest/first-build.html
+
+Clone this repo.
+
+Make sure `flatpak-builder` is installed 
+```
+yay -S flatpak-builder
+```
+
+Install the platform SDK
+```
+flatpak install flathub org.freedesktop.Platform//21.08 org.freedesktop.Sdk//21.08
+```
+
+Build the project
+```
+flatpak-builder build-dir com.tracktion.Waveform12.yml
+```
+
+Install the built package
+```
+flatpak-builder --user --install --force-clean build-dir com.tracktion.Waveform12.yml
+```
+
+Run the app
+```
+flatpak run -u com.tracktion.Waveform12 
+```
+
+
 Flathub
 -------
 
